@@ -1,0 +1,9 @@
+{
+    "editor.tabSize": 2,
+    "files.exclude": {
+        "**/.vs": true,
+        "**/bin": true,
+        "**/obj": true
+    },
+    "editor.mouseWheelZoom": true
+}

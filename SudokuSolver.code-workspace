@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+  "extensions": {
+		"recommendations": [
+			"ms-dotnettools.csharp",
+			"streetsidesoftware.code-spell-checker",
+			"mhutchie.git-graph",
+			"eamodio.gitlens"
+		]
+	}
+}

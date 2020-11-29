@@ -1,2 +1,2 @@
 # SudokuSolver
-Demo repository used for teaching.
+A simple Sudoku solver used for teaching.
