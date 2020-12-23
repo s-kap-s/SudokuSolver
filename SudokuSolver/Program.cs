@@ -4,7 +4,7 @@ namespace SudokuSolver {
   class Program {
     static void Main(string[] args) {
       int?[,] initialBoard = new int?[,] {
-        { null, null, null,    2  , null, null,   null, null,  1   },
+        { null, null, null,    2  ,  3  ,  7  ,   null, null,  1   },
         { null, null,  3  ,    8  , null, null,   null,  9  , null },
         {  7  , null,  4  ,   null,  9  ,  5  ,    8  , null, null },
 
