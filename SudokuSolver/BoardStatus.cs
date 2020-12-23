@@ -3,6 +3,5 @@
     Solved,
     Unsolvable,
     Unknown
-
   }
 }
