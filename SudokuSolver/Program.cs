@@ -1,9 +1,12 @@
 ﻿using System;
 
-namespace SudokuSolver {
-  class Program {
-    static void Main(string[] args) {
-      int?[,] initialBoard = new int?[,] {
+namespace SudokuSolver
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int?[,] initialBoard = new int?[,] {
         { null, null, null,    2  , null, null,   null, null,  1   },
         { null, null,  3  ,    8  , null, null,   null,  9  , null },
         {  7  , null,  4  ,   null,  9  ,  5  ,    8  , null, null },
@@ -17,10 +20,12 @@ namespace SudokuSolver {
         {  5  , null, null,   null, null,  9  ,   null, null, null }
       };
 
-      SudokuBoard board = new SudokuBoard(initialBoard);
+            SudokuBoard board = new SudokuBoard(initialBoard);
 
-      bool solved = SudokuSolver.Solve(board);
-      Console.WriteLine($"{(solved ? "SOLVED" : "UNSOLVABLE")}");
+            bool solved = SudokuSolver.Solve(board);
+            Console.WriteLine($"{(solved ? "SOLVED" : "UNSOLVABLE")}");
+
+            Console.WriteLine(board.ToString());
+        }
     }
-  }
 }
